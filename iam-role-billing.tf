@@ -21,7 +21,7 @@ resource "aws_iam_role" "billing" {
 }
 
 resource "aws_iam_policy_attachment" "billing" {
-  name       = "billing-attachment"
+  name       = "billing-attachment-${var.idp_account_id}"
   roles      = ["${aws_iam_role.billing.name}"]
   policy_arn = "arn:aws:iam::aws:policy/job-function/Billing"
 }
