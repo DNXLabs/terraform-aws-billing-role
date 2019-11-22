@@ -1,6 +1,6 @@
 data "aws_iam_policy_document" "assume_role_billing" {
-  statement = {
-    principals = {
+  statement {
+    principals {
       type = "AWS"
 
       identifiers = [
