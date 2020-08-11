@@ -13,6 +13,8 @@ In addition you have the option to:
 
  -  Set the maximum Client/API session duration - The default value is 43200
  
+More information: https://dnxlabs.slab.com/public/we5j8x1l
+
 
 [![Lint Status](https://github.com/DNXLabs/terraform-aws-billing-role/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-billing-role/actions)
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-billing-role)](https://github.com/DNXLabs/terraform-aws-billing-role/blob/master/LICENSE)
