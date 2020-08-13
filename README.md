@@ -1,23 +1,18 @@
 # terraform-aws-billing-role
 
-Terraform-aws-billing-role is a module that creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.
+[![Lint Status](https://github.com/DNXLabs/terraform-aws-billing-role/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-billing-role/actions)
+[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-billing-role)](https://github.com/DNXLabs/terraform-aws-billing-role/blob/master/LICENSE)
 
-This module requires:
- * Terraform Version >=0.12.20
+This terraform module creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.
 
 This modules creates the following resources:
 
-- An Identity and Access Management (IAM)role 
+- An Identity and Access Management (IAM)role
 
 In addition you have the option to:
 
  -  Set the maximum Client/API session duration - The default value is 43200
- 
-More information: https://dnxlabs.slab.com/public/we5j8x1l
 
-
-[![Lint Status](https://github.com/DNXLabs/terraform-aws-billing-role/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-billing-role/actions)
-[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-billing-role)](https://github.com/DNXLabs/terraform-aws-billing-role/blob/master/LICENSE)
 
 <!--- BEGIN_TF_DOCS --->
 
