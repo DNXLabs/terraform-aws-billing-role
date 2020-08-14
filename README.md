@@ -5,7 +5,7 @@
 
 This terraform module creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.
 
-This modules creates the following resources:
+The following resources will be created:
 
 - An Identity and Access Management (IAM)role
 
