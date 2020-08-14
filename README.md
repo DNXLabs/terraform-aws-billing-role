@@ -3,6 +3,17 @@
 [![Lint Status](https://github.com/DNXLabs/terraform-aws-billing-role/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-billing-role/actions)
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-billing-role)](https://github.com/DNXLabs/terraform-aws-billing-role/blob/master/LICENSE)
 
+This terraform module creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.
+
+The following resources will be created:
+
+- An Identity and Access Management (IAM)role
+
+In addition you have the option to:
+
+ -  Set the maximum Client/API session duration - The default value is 43200
+
+
 <!--- BEGIN_TF_DOCS --->
 
 ## Requirements
